@@ -23,7 +23,7 @@ const App = props => {
       <div className="container">
         <MovieHeader/>
         <div className="row ">
-          {displayFavorites && <FavoriteMovieList/>}
+          <FavoriteMovieList/>
         
           <Switch>
             <Route exact path="/movies/add">
